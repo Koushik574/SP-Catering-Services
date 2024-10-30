@@ -23,18 +23,18 @@ const Menu = () => {
           : "காசி அல்வா/ கேரட் அல்வா",
         language === "English" ? " Makkan Peda" : "மக்கன் பேடா",
         language === "English" ? "Ghee Pongal" : "நெய் பொங்கல்",
-        language === "English" ? "Aapam" : "ஆபம்",
+        language === "English" ? "Aappam" : "ஆப்பம்",
         language === "English"
           ? "Idly/ Malli Idly/ Ilaneer Idly"
           : "இட்லி/ மல்லி இட்லி/ இளநீர் இட்லி",
         language === "English" ? "Poori" : "பூரி",
         language === "English"
-          ? "Dosa/ Masal Dosa/ Ghee Roast"
-          : "தோசை/ மசால் தோசை/ நெய் வறுவல்",
+          ? "Dosa/ Masal Dosa"
+          : "தோசை/ மசால் தோசை",
         language === "English"
           ? "Medhu Vada/ Masal Vada"
           : "மெது வடை/ மசால் வடை",
-        language === "English" ? "Kosthu" : "கோஸ்து",
+        language === "English" ? "Kosthu" : "கொஸ்து",
         language === "English"
           ? "Channa Masala/ Vadacurry"
           : "சன்னா மசாலா/ வடகறி",
@@ -82,16 +82,16 @@ const Menu = () => {
         language === "English" ? "Veg Aviyal" : "அவியல்",
         language === "English"
           ? "Potato chops/ Seppankazhangu Roast"
-          : "உருளைக்கிழங்கு சாப்ஸ்/ செப்பங்கழங்கு வறுவல்",
+          : "உருளைக்கிழங்கு சாப்ஸ்/ சேப்பங்கிழங்கு வறுவல்",
         language === "English" ? "Appalam" : "அப்பளம்",
         language === "English"
           ? "Potato chips/ Nendran Chips"
           : "உருளைக்கிழங்கு சிப்ஸ்/ நேந்திரன் சிப்ஸ்",
         language === "English" ? "Curd" : "தயிர்",
         language === "English" ? "Pickle/ Puli Inji" : "ஊறுகாய்/ புளி இஞ்சி",
-        language === "English" ? "Moor Milagai" : "-> மோர் மிளகாய்",
-        language === "English" ? "Water Bottle" : "-> தண்ணீர் பாட்டில்",
-        language === "English" ? "Cut Fruits" : "-> கட் ப்ரூட்ஸ்",
+        language === "English" ? "Moor Milagai" : "மோர் மிளகாய்",
+        language === "English" ? "Water Bottle" : "தண்ணீர் பாட்டில்",
+        language === "English" ? "Cut Fruits" : "கட் ப்ரூட்ஸ்",
         language === "English"
           ? "Special Beda/ Vethala Paaku"
           : "ஸ்பெஷல் பீடா/ வெத்தலை பாக்கு",
@@ -155,7 +155,7 @@ const Menu = () => {
         language === "English" ? "Potata Roast" : "உருளைக்கிழங்கு வறுவல்",
         language === "English"
           ? "Bagalabath/ Curd Rice"
-          : "பகலாபாத்/ தயிர் சாதம்",
+          : "பகளாபாத்/ தயிர் சாதம்",
         language === "English" ? "Pickle" : "ஊறுகாய்",
         language === "English" ? "Moor Milagai" : "மோர் மிளகாய்",
         language === "English" ? "Ilaneer Payasam" : "இளநீர் பாயசம்",

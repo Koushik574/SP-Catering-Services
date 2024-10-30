@@ -18,7 +18,7 @@ const reviews = [
   },
   {
     name: "Aadhithya D",
-    review: "Amazing catering service",
+    review: "SP Catering Services handled the catering for my Upanayanam, From start to finish, their service was professional...",
     rating: 5,
   },
   {
@@ -27,23 +27,13 @@ const reviews = [
     rating: 5,
   },
   {
-    name: "Sai Parvathi",
-    review: "Delicious food",
+    name: "Lakshmi Sundar",
+    review: "They serve  pure Sathvic south indian veg foods for our special occasions.kalyana sapadu is my favourite.",
     rating: 5,
   },
   {
-    name: "Lakshmi",
-    review: "Delicious food",
-    rating: 5,
-  },
-  {
-    name: "Balaji",
-    review: "Delicious food",
-    rating: 5,
-  },
-  {
-    name: "Chitra",
-    review: "Delicious food",
+    name: "Chitra Balaji",
+    review: "I have tasted the food of SP catering several times the food is very hygiene and their service is extraordinary...",
     rating: 5,
   },
   {
@@ -60,11 +50,6 @@ const reviews = [
     name: "Anuradha Moorthy",
     review: `Excellent quality of food, service, hygiene are the main criteria for SP CATERING, SUCCESS
   NO COMPROMISE...`,
-    rating: 5,
-  },
-  {
-    name: "Krishnamoorthy",
-    review: "Delicious food",
     rating: 5,
   },
 ];
