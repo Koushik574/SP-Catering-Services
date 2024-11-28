@@ -21,7 +21,7 @@ const Contact = () => {
       </div>
 
       <div className="flex flex-col md:flex-row justify-between space-y-8 gap-4 md:space-y-0 md:space-x-8">
-        {/* Contact Information */}
+        
         <div className="bg-white p-8 rounded-lg shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-2xl w-full md:w-1/2">
           <h3 className="text-xl font-semibold mb-4">Our Office</h3>
           <p>
