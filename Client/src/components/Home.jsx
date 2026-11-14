@@ -1,3 +1,5 @@
+'use client';
+
 import { useState, useEffect } from "react";
 
 const Home = () => {
@@ -18,7 +20,7 @@ const Home = () => {
   }, [images.length]);
 
   return (
-    <section id="home" className="pt-16 md:pt-0">
+    <section id="home" className="pt-16 md:pt-0 bg-[#F9F6EE]">
     <div className="relative w-full" style={{ paddingBottom: "46%" }}>
       {images.map((image, index) => (
         <div

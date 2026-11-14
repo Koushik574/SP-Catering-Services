@@ -1,3 +1,5 @@
+'use client';
+
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -56,15 +58,15 @@ const reviews = [
 
 const Feedback = () => {
   return (
-    <section id="feedback" className="py-20">
+    <section id="feedback" className="py-20 bg-[#F9F6EE]">
     <div className="container mx-auto py-8 px-4 relative">
-      <h2 className="text-2xl font-bold text-center mb-6">
+      <h2 className="text-2xl font-bold text-center mb-6 text-[#4A2E1B]">
         What Our Clients Say
       </h2>
 
       <div className="flex justify-center mb-4 space-x-4">
 
-      <div className="custom-prev bg-green-600 text-white p-3 rounded-md cursor-pointer transform transition-transform duration-300 hover:scale-105">
+      <div className="custom-prev bg-[#C45A2C] text-white p-3 rounded-md cursor-pointer transform transition-transform duration-300 hover:scale-105">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -81,7 +83,7 @@ const Feedback = () => {
         </svg>
       </div>
 
-        <div className="custom-next bg-green-600 text-white p-3 rounded-md cursor-pointer transform transition-transform duration-300 hover:scale-105">
+        <div className="custom-next bg-[#C45A2C] text-white p-3 rounded-md cursor-pointer transform transition-transform duration-300 hover:scale-105">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -125,11 +127,11 @@ const Feedback = () => {
         {reviews.map((review, index) => (
           <SwiperSlide
             key={index}
-            className="bg-white shadow-lg rounded-lg p-6 transform transition-all duration-200 hover:scale-105 hover:bg-orange-400"
+            className="bg-white shadow-lg rounded-lg p-6 transform transition-all duration-200 hover:scale-105 hover:bg-[#C45A2C]/10"
           >
             <div className="flex flex-col items-center transform transition-transform duration-200 hover:scale-105">
-              <h3 className="text-xl font-semibold mb-2">{review.name}</h3>
-              <p className="text-gray-600 mb-4 text-center">{review.review}</p>
+              <h3 className="text-xl font-semibold mb-2 text-[#4A2E1B]">{review.name}</h3>
+              <p className="text-[#4A2E1B] mb-4 text-center">{review.review}</p>
               <div className="flex items-center align-stretch">
                 {Array(review.rating)
                   .fill()
@@ -137,7 +139,7 @@ const Feedback = () => {
                     <svg
                       key={i}
                       xmlns="http://www.w3.org/2000/svg"
-                      className="h-5 w-5 text-yellow-500"
+                      className="h-5 w-5 text-[#D4AF37]"
                       viewBox="0 0 20 20"
                       fill="currentColor"
                     >
@@ -156,7 +158,7 @@ const Feedback = () => {
           href="https://g.page/r/CeUK44eWtMvyEAE/review"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-yellow-400 hover:bg-purple-500 text-white py-2 px-6 rounded-full text-lg transition-colors"
+          className="bg-[#C45A2C] hover:bg-[#a7461e] text-white py-2 px-6 rounded-full text-lg transition-colors"
         >
           Rate us on Google
         </a>

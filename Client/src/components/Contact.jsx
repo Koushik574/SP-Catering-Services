@@ -15,39 +15,39 @@ import {
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-12 px-4 bg-gray-50">
+    <section id="contact" className="py-12 px-4 bg-[#F9F6EE]">
       <div className="container mx-auto text-center mb-8">
-        <h2 className="text-3xl font-bold">Contact Us</h2>
+        <h2 className="text-3xl font-bold text-[#4A2E1B]">Contact Us</h2>
       </div>
 
       <div className="flex flex-col md:flex-row justify-between space-y-8 gap-4 md:space-y-0 md:space-x-8">
         
         <div className="bg-white p-8 rounded-lg shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-2xl w-full md:w-1/2">
-          <h3 className="text-xl font-semibold mb-4">Our Office</h3>
-          <p>
+          <h3 className="text-xl font-semibold mb-4 text-[#4A2E1B]">Our Office</h3>
+          <p className="text-[#4A2E1B]">
             <strong>SP Catering Services</strong>
             <br />
-            <FontAwesomeIcon icon={faLocationDot} className="mr-2" />
+            <FontAwesomeIcon icon={faLocationDot} className="mr-2 text-[#C45A2C]" />
             No: 5, (Old No: 3), Nambuliar Street, Kondithope, Chennai-79.
           </p>
 
-          <p className="mt-4">
-            <FontAwesomeIcon icon={faPhone} className="mr-2" />
+          <p className="mt-4 text-[#4A2E1B]">
+            <FontAwesomeIcon icon={faPhone} className="mr-2 text-[#C45A2C]" />
             🇮🇳 +91 9840317167
             <a
               href="tel:9840317167"
-              className="ml-2 text-green-500 hover:text-green-700"
+              className="ml-2 text-[#C45A2C] hover:text-[#a7461e]"
             >
               <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
             </a>
           </p>
 
-          <p>
-            <FontAwesomeIcon icon={faEnvelope} className="mr-2" />
+          <p className="text-[#4A2E1B]">
+            <FontAwesomeIcon icon={faEnvelope} className="mr-2 text-[#C45A2C]" />
             spcateringspcatering@gmail.com
             <a
               href="mailto:contact@spcateringspcatering@gmail.com"
-              className="ml-2 text-green-500 hover:text-green-700"
+              className="ml-2 text-[#C45A2C] hover:text-[#a7461e]"
             >
               <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
             </a>
@@ -83,7 +83,7 @@ const Contact = () => {
 
         {/* Map */}
         <div className="bg-white p-8 rounded-lg shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-2xl w-full md:w-1/2">
-          <h3 className="text-xl font-semibold mb-4">Our Location</h3>
+          <h3 className="text-xl font-semibold mb-4 text-[#4A2E1B]">Our Location</h3>
           <div className="map-container overflow-hidden rounded-lg">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7556.664381678923!2d80.2738590249172!3d13.094324049114315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526fece0a7e717%3A0xf2cbb49687e30ae5!2sSP%20Catering%20Services!5e0!3m2!1sen!2sin!4v1729791164781!5m2!1sen!2sin"

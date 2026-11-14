@@ -1,3 +1,5 @@
+'use client';
+
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -17,14 +19,14 @@ const videos = [
 
 const Gallery = () => {
   return (
-    <section id="gallery">
+    <section id="gallery" className="bg-[#F9F6EE]">
       <div className="container mx-auto py-8 px-4">
-        <h2 className="text-2xl font-bold text-center mb-6">
+        <h2 className="text-2xl font-bold text-center mb-6 text-[#4A2E1B]">
           Our Youtube Videos
         </h2>
 
         <div className="flex justify-center mb-4 space-x-4">
-          <div className="custom-prev bg-green-600 text-white p-3 rounded-md cursor-pointer transform transition-transform duration-300 hover:scale-105">
+          <div className="custom-prev bg-[#C45A2C] text-white p-3 rounded-md cursor-pointer transform transition-transform duration-300 hover:scale-105">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -41,7 +43,7 @@ const Gallery = () => {
             </svg>
           </div>
 
-          <div className="custom-next bg-green-600 text-white p-3 rounded-md cursor-pointer transform transition-transform duration-300 hover:scale-105">
+          <div className="custom-next bg-[#C45A2C] text-white p-3 rounded-md cursor-pointer transform transition-transform duration-300 hover:scale-105">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
