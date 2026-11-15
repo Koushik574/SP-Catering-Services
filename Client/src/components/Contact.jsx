@@ -28,7 +28,7 @@ const Contact = () => {
             <strong>SP Catering Services</strong>
             <br />
             <FontAwesomeIcon icon={faLocationDot} className="mr-2 text-[#C45A2C]" />
-            No: 5, (Old No: 3), Nambuliar Street, Kondithope, Chennai-79.
+            No: 5, (Old No: 3), Nambulier Street, Kondithope, Chennai-79.
           </p>
 
           <p className="mt-4 text-[#4A2E1B]">
