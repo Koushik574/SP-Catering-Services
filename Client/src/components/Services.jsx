@@ -42,23 +42,23 @@ const Services = () => {
   ];
 
   return (
-    <section id="services">
+    <section id="services" className="bg-[#F9F6EE]">
     <div className="container mx-auto px-4 py-8">
       <div className="flex flex-col md:flex-row items-start justify-between mb-8 space-y-4 gap-4 md:space-y-0 md:space-x-6">
         
         <div className="w-full md:w-1/2 bg-white p-6 rounded-lg shadow-lg transform transition-transform duration-200 hover:scale-105">
-          <h2 className="text-2xl font-bold mb-4">Our Services</h2>
-          <p className="text-lg leading-relaxed">
+          <h2 className="text-2xl font-bold mb-4 text-[#4A2E1B]">Our Services</h2>
+          <p className="text-lg leading-relaxed text-[#4A2E1B]">
           At SP Catering Services, we are dedicated to delivering exceptional catering experiences. Whether it's an intimate gathering of 75 guests or a grand event with over 2,000 attendees, our team works tirelessly to ensure every meal is crafted with care, precision, and passion. With a strong focus on quality and customer satisfaction, we strive to make every occasion memorable and stress-free. We proudly offer our services across Tamil Nadu, ensuring that no matter where your event is, you can rely on us to provide delicious food for your guests on your special occasions. From traditional South Indian dishes to an array of multi-cuisine options, we cater to diverse tastes and preferences. Let us take care of the culinary details, so you can focus on creating cherished moments and lasting memories.
 
           </p>
         </div>
 
         <div className="w-full md:w-1/2 bg-white p-6 rounded-lg shadow-lg transform transition-transform duration-200 hover:scale-105">
-          <h2 className="text-2xl font-bold mb-4">Our Services Include</h2>
+          <h2 className="text-2xl font-bold mb-4 text-[#4A2E1B]">Our Services Include</h2>
           <ul className="list-disc list-inside">
             {servicesList.map((service, index) => (
-              <li key={index} className="text-lg mb-2">
+              <li key={index} className="text-lg mb-2 text-[#4A2E1B]">
                 {service}
               </li>
             ))}
@@ -68,7 +68,7 @@ const Services = () => {
 
       <div className="bg-white p-6 rounded-lg shadow-lg transform transition-transform duration-200 hover:scale-105">
         <div className="text-center mb-6">
-          <h3 className="text-2xl font-bold">Wedding Planner</h3>
+          <h3 className="text-2xl font-bold text-[#D4AF37]">Wedding Planner</h3>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
@@ -79,8 +79,8 @@ const Services = () => {
                 alt={item.name}
                 className="w-full h-64 object-cover"
               />
-              <div className="p-4 bg-gray-100">
-                <h4 className="text-md font-semibold">{item.name}</h4>
+              <div className="p-4 bg-[#F9F6EE]">
+                <h4 className="text-md font-semibold text-[#4A2E1B]">{item.name}</h4>
               </div>
             </div>
           ))}

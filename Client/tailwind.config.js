@@ -1,13 +1,19 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
       colors: {
-        veganOrange: "#EB8E45"
+        warmCream: "#F9F6EE",
+        deepBrown: "#4A2E1B",
+        warmGold: "#D4AF37",
+        rustBrown: "#C45A2C",
+        veganOrange: "#C45A2C",
       },
     },
   },

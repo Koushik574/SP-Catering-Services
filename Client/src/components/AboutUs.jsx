@@ -1,3 +1,5 @@
+'use client';
+
 import { useState, useEffect } from "react";
 
 const AboutUs = () => {
@@ -26,7 +28,7 @@ const AboutUs = () => {
   }, [people.length]);
 
   return (
-    <section id="about">
+    <section id="about" className="bg-[#F9F6EE]">
       <div className="container mx-auto px-4 py-8 ">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           <div className="w-full md:w-5/12 relative mb-8 md:mb-0 transform transition-transform duration-200 hover:scale-105 bg-white rounded-lg shadow-lg hover:shadow-2xl">
@@ -53,8 +55,8 @@ const AboutUs = () => {
           </div>
 
           <div className="w-full md:w-7/12 p-16 text-left transform transition-transform duration-200 hover:scale-105 bg-white rounded-lg shadow-lg hover:shadow-2xl">
-            <h2 className="text-2xl font-bold mb-4">About Us</h2>
-            <p className="text-lg leading-relaxed">
+            <h2 className="text-2xl font-bold mb-4 text-[#4A2E1B]">About Us</h2>
+            <p className="text-lg leading-relaxed text-[#4A2E1B]">
               Welcome to SP Catering Services, a family-owned business with over
               40+ years of experience in delivering exceptional catering
               solutions. Our mission is to provide delicious, high-quality
@@ -62,9 +64,9 @@ const AboutUs = () => {
               with unparalleled service.
               <span className="font-semibold">
                 Our Proprietor,
-                <span className="text-yellow-300"> Parthasarathy</span>, and his
+                <span className="text-[#D4AF37]"> Parthasarathy</span>, and his
                 elder brother, co-proprietor,
-                <span className="text-yellow-300"> Sundar</span>,
+                <span className="text-[#D4AF37]"> Sundar</span>,
               </span>
               have built this company from the ground up with dedication and a
               passion for culinary excellence. Whether it's a wedding, birthday

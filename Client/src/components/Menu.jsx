@@ -1,3 +1,5 @@
+'use client';
+
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -189,29 +191,29 @@ const Menu = () => {
   // };
 
   return (
-    <section id="menu" className="py-20">
+    <section id="menu" className="py-20 bg-[#F9F6EE]">
     <div className="container mx-auto py-12 px-4 text-center">
-      <h2 className="text-4xl font-bold mb-8">Menu</h2>
+      <h2 className="text-4xl font-bold mb-8 text-[#4A2E1B]">Menu</h2>
 
       {/* Language Toggle */}
       <div className="flex justify-center gap-7 mb-4">
         {language === "English" ? (
-          <p className="font-bold text-2xl mt-3 text-green-500">English</p>
+          <p className="font-bold text-2xl mt-3 text-[#C45A2C]">English</p>
         ) : (
-          <p className="font-bold text-2xl mt-3 text-red-500">English</p>
+          <p className="font-bold text-2xl mt-3 text-[#4A2E1B]/50">English</p>
         )}
 
         <button
           onClick={toggleLanguage}
-          className="transform transition-transform duration-150 hover:scale-105"
+          className="transform transition-transform duration-150 hover:scale-105 text-[#C45A2C]"
         >
           <FontAwesomeIcon icon={button} size="4x" />
         </button>
 
         {language === "English" ? (
-          <p className="font-bold text-2xl mt-2 text-red-500">தமிழ்</p>
+          <p className="font-bold text-2xl mt-2 text-[#4A2E1B]/50">தமிழ்</p>
         ) : (
-          <p className="font-bold text-2xl mt-2 text-green-500">தமிழ்</p>
+          <p className="font-bold text-2xl mt-2 text-[#C45A2C]">தமிழ்</p>
         )}
       </div>
 
@@ -232,7 +234,7 @@ const Menu = () => {
       {/* Dropdown Menu */}
       <div className="relative inline-block text-left mb-8">
         <button
-          className="bg-yellow-400 text-white font-semibold py-2 px-4 rounded inline-flex items-center"
+          className="bg-[#C45A2C] hover:bg-[#a7461e] text-white font-semibold py-2 px-4 rounded inline-flex items-center"
           onClick={toggleDropdown}
         >
           <span>{menuItems[currentIndex].title}</span>
@@ -241,12 +243,12 @@ const Menu = () => {
 
         {/* Dropdown List */}
         {isDropdownOpen && (
-          <div className="absolute left-0 mt-2 w-full bg-white border border-gray-300 rounded shadow-md">
+          <div className="absolute left-0 mt-2 w-full bg-[#F9F6EE] border border-gray-300 rounded shadow-md">
             <ul className="list-none text-left p-2">
               {menuItems.map((item, index) => (
                 <li
                   key={index}
-                  className="p-2 hover:bg-gray-100 cursor-pointer"
+                  className="p-2 hover:bg-gray-100 cursor-pointer text-[#4A2E1B]"
                   onClick={() => handleMealSelect(index)}
                 >
                   {item.title}
@@ -259,7 +261,7 @@ const Menu = () => {
 
       {/* Menu Items Display */}
       <div className="mt-8 p-4 border border-gray-300 rounded shadow-md w-full mx-auto">
-        <h3 className="text-2xl font-semibold mb-4 text-center">
+        <h3 className="text-2xl font-semibold mb-4 text-center text-[#D4AF37]">
           {menuItems[currentIndex].title}
         </h3>
 
@@ -267,8 +269,8 @@ const Menu = () => {
           {/* First Column */}
           <ul className="list-none flex-1">
             {menuItems[currentIndex].items.slice(0, 14).map((item, index) => (
-              <li key={index} className="text-lg text-left">
-                <FontAwesomeIcon icon={faArrowRight} className="mr-2" />
+              <li key={index} className="text-lg text-left text-[#4A2E1B]">
+                <FontAwesomeIcon icon={faArrowRight} className="mr-2 text-[#C45A2C]" />
                 {item}
               </li>
             ))}
@@ -277,8 +279,8 @@ const Menu = () => {
           {/* Second Column */}
           <ul className="list-none flex-1">
             {menuItems[currentIndex].items.slice(14, 28).map((item, index) => (
-              <li key={index + 10} className="text-lg text-left">
-                <FontAwesomeIcon icon={faArrowRight} className="mr-2" />
+              <li key={index + 10} className="text-lg text-left text-[#4A2E1B]">
+                <FontAwesomeIcon icon={faArrowRight} className="mr-2 text-[#C45A2C]" />
                 {item}
               </li>
             ))}

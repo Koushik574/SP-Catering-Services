@@ -11,3 +11,8 @@
 html{
   scroll-behavior: smooth;
 }
+
+body {
+  background-color: #F9F6EE;
+  color: #4A2E1B;
+}
